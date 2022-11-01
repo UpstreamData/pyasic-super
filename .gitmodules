@@ -1,0 +1,6 @@
+[submodule "pyasic"]
+	path = pyasic
+	url = https://github.com/UpstreamData/pyasic
+[submodule "pyasic_api"]
+	path = pyasic_api
+	url = https://github.com/UpstreamData/pyasic_api
