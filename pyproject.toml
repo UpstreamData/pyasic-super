@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pyasic-super"
+version = "0.1.0"
+description = ""
+authors = ["UpstreamData <brett@upstreamdata.ca>"]
+readme = "README.md"
+packages = [
+    {include = "pyasic"},
+    {include = "pyasic_api"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyasic = { path = "./pyasic/", develop = true }
+pyasic_api = { path = "./pyasic_api/", develop = true }
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
