@@ -1,0 +1,17 @@
+/pyasic/venv/
+/pyasic/build/
+/pyasic/dist/
+/pyasic/__pycache__/
+/pyasic/pyvenv.cfg
+/pyasic/.env/
+/pyasic/bin/
+/pyasic/lib/
+
+/pyasic_api/venv/
+/pyasic_api/build/
+/pyasic_api/dist/
+/pyasic_api/__pycache__/
+/pyasic_api/pyvenv.cfg
+/pyasic_api/.env/
+/pyasic_api/bin/
+/pyasic_api/lib/
