@@ -4,3 +4,6 @@
 [submodule "pyasic_api"]
 	path = pyasic_api
 	url = https://github.com/UpstreamData/pyasic_api
+[submodule "upstream_config_util"]
+	path = upstream_config_util
+	url = https://github.com/UpstreamData/upstream_config_util
