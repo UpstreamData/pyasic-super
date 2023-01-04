@@ -19,6 +19,7 @@ pre-commit = "^2.21.0"
 mkdocs = "^1.4.2"
 mkdocstrings = "^0.19.1"
 isort = "^5.11.4"
+cx-Freeze = "^6.13.1"
 
 [build-system]
 requires = ["poetry-core"]
