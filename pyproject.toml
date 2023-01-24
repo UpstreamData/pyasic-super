@@ -16,7 +16,7 @@ python = "^3.7"
 pyasic = { path = "./pyasic/", develop = true }
 pyasic_api = { path = "./pyasic_api/", develop = true }
 pyasic_web = { path = "./pyasic_web/", develop = true }
-cfg_util = { path = "./upstream_config_util/", develop = true}
+cfg_util = { path = "./upstream_config_util/", develop = true, python = ">=3.8"}
 pre-commit = "^2.21.0"
 mkdocs = "^1.4.2"
 mkdocstrings = "^0.19.1"
