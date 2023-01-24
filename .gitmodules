@@ -7,3 +7,6 @@
 [submodule "upstream_config_util"]
 	path = upstream_config_util
 	url = https://github.com/UpstreamData/upstream_config_util
+[submodule "pyasic_web"]
+	path = pyasic_web
+	url = https://github.com/UpstreamData/pyasic_web

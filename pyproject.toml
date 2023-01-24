@@ -7,13 +7,15 @@ readme = "README.md"
 packages = [
     {include = "pyasic"},
     {include = "pyasic_api"},
+    {include = "pyasic_web"},
     {include = "cfg_util"},
 ]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.7"
 pyasic = { path = "./pyasic/", develop = true }
 pyasic_api = { path = "./pyasic_api/", develop = true }
+pyasic_web = { path = "./pyasic_web/", develop = true }
 cfg_util = { path = "./upstream_config_util/", develop = true}
 pre-commit = "^2.21.0"
 mkdocs = "^1.4.2"
