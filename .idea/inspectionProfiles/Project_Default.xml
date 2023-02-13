@@ -1,0 +1,103 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="23">
+            <item index="0" class="java.lang.String" itemvalue="tzlocal" />
+            <item index="1" class="java.lang.String" itemvalue="greenlet" />
+            <item index="2" class="java.lang.String" itemvalue="Flask-WTF" />
+            <item index="3" class="java.lang.String" itemvalue="SQLAlchemy" />
+            <item index="4" class="java.lang.String" itemvalue="cffi" />
+            <item index="5" class="java.lang.String" itemvalue="zope.interface" />
+            <item index="6" class="java.lang.String" itemvalue="requests" />
+            <item index="7" class="java.lang.String" itemvalue="click" />
+            <item index="8" class="java.lang.String" itemvalue="Flask-SQLAlchemy" />
+            <item index="9" class="java.lang.String" itemvalue="APScheduler" />
+            <item index="10" class="java.lang.String" itemvalue="Flask-Login" />
+            <item index="11" class="java.lang.String" itemvalue="bcrypt" />
+            <item index="12" class="java.lang.String" itemvalue="chardet" />
+            <item index="13" class="java.lang.String" itemvalue="WTForms" />
+            <item index="14" class="java.lang.String" itemvalue="certifi" />
+            <item index="15" class="java.lang.String" itemvalue="Flask-Bcrypt" />
+            <item index="16" class="java.lang.String" itemvalue="gevent" />
+            <item index="17" class="java.lang.String" itemvalue="urllib3" />
+            <item index="18" class="java.lang.String" itemvalue="zope.event" />
+            <item index="19" class="java.lang.String" itemvalue="Flask" />
+            <item index="20" class="java.lang.String" itemvalue="idna" />
+            <item index="21" class="java.lang.String" itemvalue="Crypto" />
+            <item index="22" class="java.lang.String" itemvalue="PySimpleGUI" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E266" />
+          <option value="W605" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N813" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="center_board_temp" />
+          <option value="ip" />
+          <option value="datetime" />
+          <option value="model" />
+          <option value="hostname" />
+          <option value="hashrate" />
+          <option value="left_board_temp" />
+          <option value="left_board_chip_temp" />
+          <option value="center_board_chip_temp" />
+          <option value="right_board_temp" />
+          <option value="right_board_chip_temp" />
+          <option value="wattage" />
+          <option value="fan_1" />
+          <option value="fan_2" />
+          <option value="fan_3" />
+          <option value="fan_4" />
+          <option value="left_chips" />
+          <option value="center_chips" />
+          <option value="right_chips" />
+          <option value="ideal_chips" />
+          <option value="pool_split" />
+          <option value="pool_1_url" />
+          <option value="pool_1_user" />
+          <option value="pool_2_url" />
+          <option value="pool_2_user" />
+          <option value="url" />
+          <option value="username" />
+          <option value="password" />
+          <option value="quota" />
+          <option value="group_name" />
+          <option value="pools" />
+          <option value="pool_groups" />
+          <option value="temp_mode" />
+          <option value="temp_target" />
+          <option value="temp_hot" />
+          <option value="temp_dangerous" />
+          <option value="minimum_fans" />
+          <option value="fan_speed" />
+          <option value="asicboost" />
+          <option value="autotuning_enabled" />
+          <option value="autotuning_wattage" />
+          <option value="dps_enabled" />
+          <option value="dps_power_step" />
+          <option value="dps_min_power" />
+          <option value="dps_shutdown_enabled" />
+          <option value="dps_shutdown_duration" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
