@@ -8,7 +8,7 @@ packages = [
     {include = "pyasic"},
     {include = "pyasic_api"},
     {include = "pyasic_web"},
-    {include = "cfg_util"},
+    {include = "upstream_config_util"},
 ]
 
 [tool.poetry.dependencies]
@@ -17,11 +17,12 @@ pyasic = { path = "./pyasic/", develop = true }
 pyasic_api = { path = "./pyasic_api/", develop = true }
 pyasic_web = { path = "./pyasic_web/", develop = true }
 cfg_util = { path = "./upstream_config_util/", develop = true, python = ">=3.8"}
-pre-commit = "^2.21.0"
+pre-commit = "^3.1.0"
 mkdocs = "^1.4.2"
-mkdocstrings = "^0.19.1"
-isort = "^5.11.4"
-cx-Freeze = "^6.13.1"
+mkdocstrings = {extras = ["python"], version = "^0.20.0"}
+isort = "^5.12.0"
+cx-Freeze = "^6.14.4"
+asynctest = "^0.13.0"
 
 [build-system]
 requires = ["poetry-core"]
