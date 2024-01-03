@@ -7,7 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/pyasic_web" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/upstream_config_util" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="Poetry (pyasic-super)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Poetry (pyasic-super) (3)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
